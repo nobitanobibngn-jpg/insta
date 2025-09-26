@@ -1,0 +1,25 @@
+{
+  "name": "instagram-downloader-api",
+  "version": "2.0.1",
+  "description": "ইন্সটাগ্রাম মিডিয়া ডাউনলোড API",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "install-browser": "npx puppeteer browsers install chrome",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "axios": "^1.10.0",
+    "puppeteer": "^22.4.1",
+    "instagram-url-direct": "^2.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

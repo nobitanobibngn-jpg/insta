@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment variables
+.env
+.env.*
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Puppeteer chromium cache (optional but recommended)
+.puppeteer/
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Vercel config (optional, if private)
+.vercel
+
+# VSCode settings (if personal)
+.vscode/
+
+# Coverage reports
+coverage/
+
+# Optional build outputs (if using any)
+dist/
+build/
+
+# Other
+*.zip
+*.tar
+*.gz
